@@ -21,8 +21,10 @@ const prettyCodeOptions = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://magal-star.github.io',
+  site: 'https://Magal-star.github.io',
   output: 'static',
+
+  adapter: cloudflare(),
 
   vite: {
     plugins: [tailwindcss()],
