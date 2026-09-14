@@ -21,7 +21,7 @@ const prettyCodeOptions = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://Magal-star.hithub.io',
+  site: 'https://Magal-star.github.io',
   output: 'server',
 
   adapter: cloudflare(),
